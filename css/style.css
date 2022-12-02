@@ -1,0 +1,63 @@
+.hotel__card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+    max-width: 414px;
+    outline: 1px solid blue;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.wrapper {
+    border: 1px solid red;
+    max-width: 67%;
+}
+
+.wrapper-text {
+
+}
+
+.wrapper__bedroom {
+    outline: 1px solid green;
+    width: 99%;
+}
+
+.holimg{
+    
+}
+
+.bedroom-img {
+    
+}
+
+.main-start {
+
+}
