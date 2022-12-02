@@ -34,19 +34,15 @@ body {
     flex-direction: column;
 }
 
-.row-reverse {
-    flex-direction: row-reverse;
-}
-
-.row {
-    flex-direction: row;
-}
-
 .wrapper {
     border: 1px solid red;
     max-width: 67%;
 }
 
+.wrapper__about-hotel {
+    display: flex;
+    flex-direction: column;
+}
 
 .wrapper__bedroom {
     outline: 1px solid green;
@@ -54,7 +50,13 @@ body {
     max-width: 67%;
 }
 
-.wrapper__holl {
+.wrapper__hall {
+    display: flex;
+}
+
+.wrapper__hall-text {
     outline: 1px solid green;
+    margin: auto 0;
+    display: flex;
 }
 
